@@ -1,7 +1,6 @@
 from src.validators.validate_register_products import validate_register_products_request_body
 from src.error_handling.validation_error_view import ViewError
 
-
 class RegisterProductsViews:
     def __init__(self, controller) -> None:
         self.__controller = controller
@@ -20,11 +19,14 @@ class RegisterProductsViews:
             
             return {
                 "status_code": 200,
-                "name_product": name_product,
-                "type_product": type_product,
-                "quantify_product": quantify_product
-            },
-            "success": True
+                "data": {
+                    "name_product": name_product,
+                    "type_product": type_product,
+                    "quantify_product": quantify_product
+                },
+                "success": True
+            }
+
         
         except Exception as exception:
             # Envia a exceção para a função de tratamento de erros

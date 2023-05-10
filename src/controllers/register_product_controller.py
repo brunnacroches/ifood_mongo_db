@@ -13,6 +13,4 @@ class RegisterProductController:
             'quantity_product': quantify_product
         }
         
-        
         return self.db_repository.insert_product(product)
-    
