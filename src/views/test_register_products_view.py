@@ -72,7 +72,6 @@ def test_register_product_view_invalid_type():
     except ValidationError as e:
         assert str(e) == "{'message': 'Invalid request body', 'errors': {'name_product': ['must be of string type']}}"
 
-
 # testar quando o valor dos campos nao e valido
 def test_register_product_view_invalid_value():
     controller = MockController()

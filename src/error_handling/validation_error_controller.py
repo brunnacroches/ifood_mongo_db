@@ -1,4 +1,5 @@
 from typing import Optional
+import re
 from src.error_handling.validation_error import ControllerError
 
 class ValidationErrorController(Exception):
@@ -13,10 +14,6 @@ class ValidationErrorController(Exception):
         return all(len(input) > 0 for input in inputs)
     
     @staticmethod
-    def validate_no_spaces_in_inputs(*inputs):
-        return all(' ' not in input for input in inputs)
-    
-    @staticmethod
     def validate_values_are_not_null(*values):
         return all(value is not None for value in values)
     
@@ -25,13 +22,25 @@ class ValidationErrorController(Exception):
         return all(name is not None for name in names)
     
     @staticmethod
-    def validate_products_fileds(name_product: str, type_product: str, quantity_product: int):
-        if not ValidationErrorController.validate_input_is_not_empty(name_product, type_product) or not ValidationErrorController.validate_no_spaces_in_inputs(name_product, type_product, quantity_product):
-            raise ControllerError("Error: Invalid inputs(s)")
+    def validate_product_name(name_product: str):
+        if not ValidationErrorController.validate_input_is_not_empty(name_product):
+            raise ControllerError("Error: Invalid input. Name cannot be empty.")
+        # if not ValidationErrorController.validate_no_spaces_in_inputs(name_product):
+        #     raise ControllerError("Error: Invalid input. Name cannot contain spaces.")
+
+    @staticmethod
+    def validate_products_fields(name_product: str, type_product: str, quantity_product: int):
+        ValidationErrorController.validate_product_name(name_product)
+        if not ValidationErrorController.validate_input_is_not_empty(type_product):
+            raise ControllerError("Error: Invalid input(s). Type cannot be empty.")
         if not ValidationErrorController.validate_values_are_not_null(quantity_product):
-            raise ControllerError("Error: quantity product not found")
+            raise ControllerError("Error: Invalid input(s). Quantity cannot be null.")
         try:
             int(quantity_product)
         except ValueError:
-            raise ControllerError("Error: Not found")
+            raise ControllerError("Error: Invalid input(s). Quantity must be a valid integer.")
 
+    @staticmethod
+    def validate_input_is_alphanumeric(*inputs):
+        pattern = re.compile('^[a-zA-Z0-9]+$')
+        return all(bool(pattern.match(input)) for input in inputs)
