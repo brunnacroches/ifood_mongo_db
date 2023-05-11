@@ -5,12 +5,16 @@ from src.error_handling.validation_error import ValidationError
 
 
 class MockController:
-    def __init__(self) -> None:
+    def __init__(self, error=False) -> None:
         self.register_product_controller_attributes = []
+        self.error = error
 
     def register_product_controller(self, name_product, type_product, quantify_product):
-        print("register_product_controller foi chamado")
-        self.register_product_controller_attributes.append((name_product, type_product, quantify_product))
+        if self.error:
+            raise Exception("Erro na camada do controlador")
+        else:
+            print("register_product_controller foi chamado")
+            self.register_product_controller_attributes.append((name_product, type_product, quantify_product))
 
 # testar se o produto registrado é valido
 def test_register_product_view_valid():
@@ -53,8 +57,48 @@ def test_register_product_view_missing_fields():
     except ValidationError as e:
         assert str(e) == "{'message': 'Invalid request body', 'errors': {'quantify_product': ['must be of integer type']}}"
 
-# testar quando os campos tem o tipo errado 
+# Teste para verificar se os campos têm o tipo errado
+def test_register_product_view_invalid_type():
+    controller = MockController()
+    register_product_view = RegisterProductsViews(controller)
+    request = MagicMock()
+    request.json = {
+        "name_product": 123,  # valor inválido para name_product
+        "type_product": "Type 1",
+        "quantify_product": 10
+    }
+    try:
+        response = register_product_view.register_products_view(request)
+    except ValidationError as e:
+        assert str(e) == "{'message': 'Invalid request body', 'errors': {'name_product': ['must be of string type']}}"
+
 
 # testar quando o valor dos campos nao e valido
-    
+def test_register_product_view_invalid_value():
+    controller = MockController()
+    register_product_view = RegisterProductsViews(controller)
+    request = MagicMock()
+    request.json = {
+        "name_product": "Product 1",
+        "type_product": "Type 1",
+        "quantify_product": -10  # valor inválido para quantify_product
+    }
+    try:
+        response = register_product_view.register_products_view(request)
+    except ValidationError as e:
+        assert str(e) == "{'message': 'Invalid request body', 'errors': {'quantify_product': ['must be greater than or equal to 0']}}"
+
 # testar quando ocorre um erro na camada do controlador
+def test_register_product_view_controller_error():
+    controller = MockController(error=True)
+    register_product_view = RegisterProductsViews(controller)
+    request = MagicMock()
+    request.json = {
+        "name_product": "Product 1",
+        "type_product": "Type 1",
+        "quantify_product": 10
+    }
+    response = register_product_view.register_products_view(request)
+
+    assert response["status_code"] == 500
+    assert response["error_message"] == "Erro na camada do controlador"
