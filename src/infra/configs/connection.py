@@ -26,4 +26,4 @@ class DBConnectionHandler:
         return self.__db_connection
     
     def get_db_client(self):
-        return
+        return self.__client

@@ -5,7 +5,7 @@ class RegisterProductController:
         self.db_repository = model
     
     def register_product_controller(self, name_product: str, type_product: str, quantity_product: int):
-        ValidationErrorController.validate_products_fileds(name_product, type_product, quantity_product)
+        ValidationErrorController.validate_input_is_not_empty(name_product, type_product, quantity_product)
     
         product = {
             'name_product': name_product,

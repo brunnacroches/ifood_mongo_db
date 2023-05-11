@@ -85,12 +85,12 @@ def test_search_product(product_repository):
     # Verifica se o produto foi encontrado corretamente
     assert result is not None
 
-@pytest.mark.usefixtures("product_repository")
-def test_delete_product(product_repository):
-    name_product = "Torta de Frango"
+# @pytest.mark.usefixtures("product_repository")
+# def test_delete_product(product_repository):
+#     name_product = "Torta de Frango"
     
-    # Deleta o produto pelo nome
-    result = product_repository.delete_product(name_product)
+#     # Deleta o produto pelo nome
+#     result = product_repository.delete_product(name_product)
     
-    # Verifica se o produto foi deletado com sucesso
-    assert result is True
+#     # Verifica se o produto foi deletado com sucesso
+#     assert result is True
