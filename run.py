@@ -22,9 +22,9 @@ products_repository = ProductsRepository(db_connection)
 # Realiza a inserção de dados
 name_product = "Torta de Limão"
 type_product = "Doce"
-quantify_product = 2
+quantity_product = 2
 
-response = products_repository.insert_product(name_product, type_product, quantify_product)
+response = products_repository.insert_product(name_product, type_product, quantity_product)
 print(response)
 
 

@@ -5,7 +5,7 @@ def validate_register_products_request_body(request_body):
     schema = {
         "name_product": {"type": "string", "required": True},
         "type_product": {"type": "string", "required": True},
-        "quantify_product": {"type": "integer", "required": True},
+        "quantity_product": {"type": "integer", "required": True},
     }
     validator = Validator(schema)
     is_valid = validator.validate(request_body)

@@ -8,11 +8,11 @@ class ProductsRepository:
         self.__db_connection = db_connection
 
     # funcionalidade de inserção 
-    def insert_product(self, name_product: str, type_product: str, quantify_product: int) -> Dict:
+    def insert_product(self, name_product: str, type_product: str, quantity_product: int) -> Dict:
         product = {
             'name_product': name_product,
             'type_product': type_product,
-            'quantify_product': quantify_product
+            'quantity_product': quantity_product
         }
         collection = self.__db_connection.get_collection(self.__collection_name)
         collection.insert_one(product)
