@@ -1,4 +1,4 @@
-from src.error_handling.validation_error_controller import ValidationErrorController
+from ..error_handling.validation_error_controller import ValidationErrorController
 
 class RegisterProductController:
     def __init__(self, model) -> None:

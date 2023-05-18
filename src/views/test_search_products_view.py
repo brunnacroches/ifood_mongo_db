@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import MagicMock
-from src.views.search_products_view import SearchProductViews
+from .search_products_view import SearchProductViews
 
 # criar a classe Mock
 class MockController:

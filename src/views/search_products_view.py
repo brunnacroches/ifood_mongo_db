@@ -1,8 +1,8 @@
-from src.validators.validate_search_products import validate_search_query_params
-from src.error_handling.validation_error_view import ViewError
-from src.main.http_types.http_request import HttpRequest
-from src.main.http_types.http_response import HttpResponse
-from views.interface.view import ViewInterface
+from ..validators.validate_search_products import validate_search_query_params
+from ..error_handling.validation_error_view import ViewError
+from ..main.http_types.http_request import HttpRequest
+from ..main.http_types.http_response import HttpResponse
+from .interface.view import ViewInterface
 
 class SearchProductViews(ViewInterface):
     def __init__(self, controller, input: HttpRequest) -> HttpResponse:

@@ -1,6 +1,6 @@
 import pytest
-from src.controllers.search_product_controller import SearchProductController
-from src.error_handling.validation_error import ControllerError
+from ..controllers.search_product_controller import SearchProductController
+from ..error_handling.validation_error import ControllerError
 
 class MockModel:
     def __init__(self) -> None:

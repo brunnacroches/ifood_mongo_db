@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 from pymongo.database import Database
-from src.infra.configs.connection import DBConnectionHandler
+from ...infra.configs.connection import DBConnectionHandler
 
 def test_db_connection():
     # Cria uma instância do DBConnectionHandler

@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import MagicMock
-from src.views.register_product_view import RegisterProductsViews
-from src.error_handling.validation_error import ValidationError
+from .register_product_view import RegisterProductsViews
+from ..error_handling.validation_error import ValidationError
 
 
 class MockController:
