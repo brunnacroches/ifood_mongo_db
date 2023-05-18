@@ -1,7 +1,6 @@
 import pytest
 from unittest.mock import MagicMock
 from src.views.search_products_view import SearchProductViews
-from src.error_handling.validation_error import ValidationError
 
 # criar a classe Mock
 class MockController:
