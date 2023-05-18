@@ -6,7 +6,7 @@ implemente uma API de delivery de comida com as seguintes funcionalidades:
 • Buscar os pedidos realizados pelo nome do cliente
 - Observações importantes!
 
-* O registro de pedido deve seguir a seguinte esquematização:
+- O registro de pedido deve seguir a seguinte esquematização:
 {
 _id: ObjectId(‘79421iu4hjh4gk4u64g23’),
 cliente: “Seu José”,
@@ -25,12 +25,15 @@ acompanhamento: “Molho”
 },
 ]
 }
+
 - O projeto deve ser salvo e armazenado em um repositório no GitHub
 - É necessario a presença de testes unitários
 - É necessário a utilização de POO para tal sistema.
 
 - Sobre a avaliação:
 
-* Serão tomados como elementos avaliativos toda a resolução do problema em conjunto com o
+- Serão tomados como elementos avaliativos toda a resolução do problema em conjunto com o
 modo arquitetural proposto pelo mentorado. Além disso, a disposição de código limpo e
 comitagem serão levados em conta
+
+comentário
