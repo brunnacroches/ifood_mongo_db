@@ -5,11 +5,14 @@ from ..main.http_types.http_response import HttpResponse
 from .interface.view import ViewInterface
 
 class SearchProductViews(ViewInterface):
-    def __init__(self, controller, input: HttpRequest) -> HttpResponse:
+    def __init__(self, controller):
         self.__controller = controller
-    
+
+    def execute(self, request: HttpRequest) -> HttpResponse:
+        return self.register_products_view(request)
+
 # Metodo para tratar a aquisição da rota e retornar a resposta da pesquisa
-    def search_product_view(self, input):
+    def search_product_view(self, input: HttpRequest) -> HttpResponse:
         try:
             # Converte os argumentos da requisição em um dicionário
             query_params = dict(input)

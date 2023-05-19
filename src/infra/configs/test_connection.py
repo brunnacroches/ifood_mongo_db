@@ -23,4 +23,4 @@ def test_db_connection():
     assert isinstance(db_client, MongoClient)
 
 # Verifica se o nome do banco de dados está correto
-    assert db_connection.name == "meuBanco"
+    assert db_connection.name == "mydatabase"
