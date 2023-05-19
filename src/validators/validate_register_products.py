@@ -1,5 +1,5 @@
 from cerberus import Validator
-from src.error_handling.validation_error import ValidationError
+from ..error_handling.validation_error import ValidationError
 
 def validate_register_products_request_body(request_body):
     schema = {

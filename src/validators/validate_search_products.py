@@ -1,5 +1,5 @@
 from cerberus import Validator
-from src.error_handling.validation_error import ValidationError
+from ..error_handling.validation_error import ValidationError
 
 def validate_search_query_params(query_params):
     schema = {

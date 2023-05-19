@@ -1,8 +1,8 @@
 from bson.objectid import ObjectId
 from typing import Dict, List
 import pytest
-from src.infra.configs.connection import DBConnectionHandler
-from src.infra.repository.products_repository import ProductsRepository
+from ...infra.configs.connection import DBConnectionHandler
+from ...infra.repository.products_repository import ProductsRepository
 
 @pytest.fixture
 def product_repository():

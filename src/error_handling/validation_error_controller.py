@@ -1,6 +1,6 @@
 from typing import Optional
 import re
-from src.error_handling.validation_error import ControllerError
+from ..error_handling.validation_error import ControllerError
 
 class ValidationErrorController(Exception):
     def __init__(self, message, errors=None) -> None:

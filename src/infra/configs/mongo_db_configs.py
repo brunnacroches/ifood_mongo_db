@@ -5,5 +5,5 @@ mongo_db_infos = {
     "PORT": "27017",
     "USERNAME": "admin",
     "PASSWORD": "password",
-    "DB_NAME": "meuBanco"
+    "DB_NAME": "mydatabase"
 }

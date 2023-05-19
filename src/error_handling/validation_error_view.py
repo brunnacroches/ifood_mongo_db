@@ -1,5 +1,5 @@
 import traceback
-from src.error_handling.validation_error import ValidationError
+from ..error_handling.validation_error import ValidationError
 
 # Definindoo a classe de exeção personalizada ViewError
 class ViewError(Exception):

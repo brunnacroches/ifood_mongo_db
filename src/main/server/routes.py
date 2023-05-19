@@ -4,12 +4,13 @@ from src.views.register_product_view import RegisterProductsViews
 from src.views.search_products_view import SearchProductViews
 from src.main.composer.register_product_composer import register_product_composer
 from src.main.composer.search_composer import search_composer
+from src.main.adapter.request_adapter import request_adapter
 
 @app.route("/register_product", methods=["POST"])
 def register_product_route():
-    product_route = register_product_composer()
+    request_adapter = register_product_composer()
     
-    http_response = product_route.register_products_view(request)
+    http_response = request_adapter.register_products_view(request)
     
     response = make_response(jsonify(http_response["data"]), http_response["status_code"])
     return response

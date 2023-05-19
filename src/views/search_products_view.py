@@ -1,21 +1,27 @@
-from src.validators.validate_search_products import validate_search_query_params
-from src.error_handling.validation_error_view import ViewError
+from ..validators.validate_search_products import validate_search_query_params
+from ..error_handling.validation_error_view import ViewError
+from ..main.http_types.http_request import HttpRequest
+from ..main.http_types.http_response import HttpResponse
+from .interface.view import ViewInterface
 
-class SearchProductViews:
-    def __init__(self, controller) -> None:
+class SearchProductViews(ViewInterface):
+    def __init__(self, controller):
         self.__controller = controller
-    
+
+    def execute(self, request: HttpRequest) -> HttpResponse:
+        return self.register_products_view(request)
+
 # Metodo para tratar a aquisição da rota e retornar a resposta da pesquisa
-    def search_product_view(self, request_args):
+    def search_product_view(self, input: HttpRequest) -> HttpResponse:
         try:
             # Converte os argumentos da requisição em um dicionário
-            query_params = dict(request_args)
+            query_params = dict(input)
             
             # Valida os parâmetros de consulta recebidos
             validate_search_query_params(query_params)
             
             # Obtém os nomes a partir dos parâmetros de consulta
-            search_product = request_args.get("name_product")
+            search_product = input.get("name_product")
             
             # Retorna a lista de produtos encontrados
             filtered_products = self.__controller.search_product_controller(search_product)
