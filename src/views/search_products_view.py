@@ -3,9 +3,10 @@ from ..error_handling.validation_error_view import ViewError
 from ..main.http_types.http_request import HttpRequest
 from ..main.http_types.http_response import HttpResponse
 from .interface.view import ViewInterface
+from ..controllers.interface.search_product_interface import SearchProductControllerInterface
 
 class SearchProductViews(ViewInterface):
-    def __init__(self, controller):
+    def __init__(self, controller: SearchProductControllerInterface):
         self.__controller = controller
 
     def execute(self, request: HttpRequest) -> HttpResponse:

@@ -1,7 +1,7 @@
 from ..error_handling.validation_error_controller import ValidationErrorController
-from .interface.controller_interface import ControllerInterface
+from .interface.search_product_interface import SearchProductControllerInterface
 
-class SearchProductController(ControllerInterface):
+class SearchProductController(SearchProductControllerInterface):
     def __init__(self, model) -> None:
         self.db_repository = model
 
