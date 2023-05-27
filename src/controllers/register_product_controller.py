@@ -1,12 +1,10 @@
 from ..error_handling.validation_error_controller import ValidationErrorController
-from .interface.controller_interface import ControllerInterface
+from .interface.register_product_interface import RegisterProductControllerInterface
 
-class RegisterProductController(ControllerInterface):
+class RegisterProductController(RegisterProductControllerInterface):
     def __init__(self, model) -> None:
         self.db_repository = model
         
-    def controllerinterface(self, *args, **kwargs):
-        pass
     
     def register_product_controller(self, name_product: str, type_product: str, quantity_product: int):
         ValidationErrorController.validate_products_fields(name_product, type_product, quantity_product)

@@ -1,8 +1,10 @@
 from bson.objectid import ObjectId
 from typing import Dict, List
 from ..interface.dbconnectioninterface import DBConnectionInterface
+from ..interface.product_repostory_interface import ProductsRepository
+
 # tratamento dos dados
-class ProductsRepository():
+class ProductsRepository(ProductsRepository):
     def __init__(self, db_connection: DBConnectionInterface) -> None:
         self.__collection_name = 'productsRepository'
         self.__db_connection = db_connection
