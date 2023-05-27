@@ -9,7 +9,6 @@ from src.main.adapter.request_adapter import request_adapter
 @app.route("/register_product", methods=["POST"])
 def register_product_route():
     request_adapter = register_product_composer()
-    
     http_response = request_adapter.register_products_view(request)
     
     response = make_response(jsonify(http_response["data"]), http_response["status_code"])
@@ -18,7 +17,6 @@ def register_product_route():
 @app.route("/register_product/search_product", methods=["GET"])
 def search_product_route():
     search_route = search_composer()
-        
     http_response = search_route.search_product_view(request.args)
         
     print(f"http_response: {http_response}")

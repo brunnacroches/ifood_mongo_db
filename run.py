@@ -1,8 +1,15 @@
 from src.infra.configs.connection import DBConnectionHandler
 from src.infra.repository.products_repository import ProductsRepository
+from src.main.server.server import app
 
 # Instancia o objeto DBConnectionHandler
 db_hanlde = DBConnectionHandler()
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
+
 
 # Conecta ao banco de dados
 db_hanlde.connect_to_db()
