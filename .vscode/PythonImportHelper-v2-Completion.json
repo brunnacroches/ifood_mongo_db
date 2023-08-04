@@ -1,0 +1,1190 @@
+[
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "importPath": "pymongo.database",
+        "description": "pymongo.database",
+        "isExtraImport": true,
+        "detail": "pymongo.database",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectId",
+        "importPath": "bson.objectid",
+        "description": "bson.objectid",
+        "isExtraImport": true,
+        "detail": "bson.objectid",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "src.main.http_types.http_request",
+        "description": "src.main.http_types.http_request",
+        "isExtraImport": true,
+        "detail": "src.main.http_types.http_request",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "src.main.http_types.http_response",
+        "description": "src.main.http_types.http_response",
+        "isExtraImport": true,
+        "detail": "src.main.http_types.http_response",
+        "documentation": {}
+    },
+    {
+        "label": "ViewInterface",
+        "importPath": "src.views.interface.view",
+        "description": "src.views.interface.view",
+        "isExtraImport": true,
+        "detail": "src.views.interface.view",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsRepository",
+        "importPath": "src.infra.repository.products_repository",
+        "description": "src.infra.repository.products_repository",
+        "isExtraImport": true,
+        "detail": "src.infra.repository.products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsRepository",
+        "importPath": "src.infra.repository.products_repository",
+        "description": "src.infra.repository.products_repository",
+        "isExtraImport": true,
+        "detail": "src.infra.repository.products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsRepository",
+        "importPath": "src.infra.repository.products_repository",
+        "description": "src.infra.repository.products_repository",
+        "isExtraImport": true,
+        "detail": "src.infra.repository.products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductController",
+        "importPath": "src.controllers.register_product_controller",
+        "description": "src.controllers.register_product_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductsViews",
+        "importPath": "src.views.register_product_view",
+        "description": "src.views.register_product_view",
+        "isExtraImport": true,
+        "detail": "src.views.register_product_view",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductsViews",
+        "importPath": "src.views.register_product_view",
+        "description": "src.views.register_product_view",
+        "isExtraImport": true,
+        "detail": "src.views.register_product_view",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionHandler",
+        "importPath": "src.infra.configs.connection",
+        "description": "src.infra.configs.connection",
+        "isExtraImport": true,
+        "detail": "src.infra.configs.connection",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionHandler",
+        "importPath": "src.infra.configs.connection",
+        "description": "src.infra.configs.connection",
+        "isExtraImport": true,
+        "detail": "src.infra.configs.connection",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionHandler",
+        "importPath": "src.infra.configs.connection",
+        "description": "src.infra.configs.connection",
+        "isExtraImport": true,
+        "detail": "src.infra.configs.connection",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductController",
+        "importPath": "src.controllers.search_product_controller",
+        "description": "src.controllers.search_product_controller",
+        "isExtraImport": true,
+        "detail": "src.controllers.search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductViews",
+        "importPath": "src.views.search_products_view",
+        "description": "src.views.search_products_view",
+        "isExtraImport": true,
+        "detail": "src.views.search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductViews",
+        "importPath": "src.views.search_products_view",
+        "description": "src.views.search_products_view",
+        "isExtraImport": true,
+        "detail": "src.views.search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main.server.server",
+        "description": "src.main.server.server",
+        "isExtraImport": true,
+        "detail": "src.main.server.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.main.server.server",
+        "description": "src.main.server.server",
+        "isExtraImport": true,
+        "detail": "src.main.server.server",
+        "documentation": {}
+    },
+    {
+        "label": "register_product_composer",
+        "importPath": "src.main.composer.register_product_composer",
+        "description": "src.main.composer.register_product_composer",
+        "isExtraImport": true,
+        "detail": "src.main.composer.register_product_composer",
+        "documentation": {}
+    },
+    {
+        "label": "search_composer",
+        "importPath": "src.main.composer.search_composer",
+        "description": "src.main.composer.search_composer",
+        "isExtraImport": true,
+        "detail": "src.main.composer.search_composer",
+        "documentation": {}
+    },
+    {
+        "label": "request_adapter",
+        "importPath": "src.main.adapter.request_adapter",
+        "description": "src.main.adapter.request_adapter",
+        "isExtraImport": true,
+        "detail": "src.main.adapter.request_adapter",
+        "documentation": {}
+    },
+    {
+        "label": "Validator",
+        "importPath": "cerberus",
+        "description": "cerberus",
+        "isExtraImport": true,
+        "detail": "cerberus",
+        "documentation": {}
+    },
+    {
+        "label": "Validator",
+        "importPath": "cerberus",
+        "description": "cerberus",
+        "isExtraImport": true,
+        "detail": "cerberus",
+        "documentation": {}
+    },
+    {
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "MagicMock",
+        "importPath": "unittest.mock",
+        "description": "unittest.mock",
+        "isExtraImport": true,
+        "detail": "unittest.mock",
+        "documentation": {}
+    },
+    {
+        "label": "ControllerInterface",
+        "kind": 6,
+        "importPath": "src.controllers.interface.controller_interface",
+        "description": "src.controllers.interface.controller_interface",
+        "peekOfCode": "class ControllerInterface(ABC):\n    @abstractmethod\n    def controllerinterface(self, *args, **kwargs):\n        pass",
+        "detail": "src.controllers.interface.controller_interface",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductControllerInterface",
+        "kind": 6,
+        "importPath": "src.controllers.interface.register_product_interface",
+        "description": "src.controllers.interface.register_product_interface",
+        "peekOfCode": "class RegisterProductControllerInterface(ABC):\n    @abstractmethod\n    def register_product_controller(self, name_product: str, type_product: str, quantity_product: int):\n        pass",
+        "detail": "src.controllers.interface.register_product_interface",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductControllerInterface",
+        "kind": 6,
+        "importPath": "src.controllers.interface.search_product_interface",
+        "description": "src.controllers.interface.search_product_interface",
+        "peekOfCode": "class SearchProductControllerInterface(ABC):\n    @abstractmethod\n    def search_product(self, name_product: str):\n        pass",
+        "detail": "src.controllers.interface.search_product_interface",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductController",
+        "kind": 6,
+        "importPath": "src.controllers.register_product_controller",
+        "description": "src.controllers.register_product_controller",
+        "peekOfCode": "class RegisterProductController(RegisterProductControllerInterface):\n    def __init__(self, model) -> None:\n        self.db_repository = model\n    def register_product_controller(self, name_product: str, type_product: str, quantity_product: int):\n        ValidationErrorController.validate_products_fields(name_product, type_product, quantity_product)\n        product = {\n            'name_product': name_product,\n            'type_product': type_product,\n            'quantity_product': quantity_product\n        }",
+        "detail": "src.controllers.register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductController",
+        "kind": 6,
+        "importPath": "src.controllers.search_product_controller",
+        "description": "src.controllers.search_product_controller",
+        "peekOfCode": "class SearchProductController(SearchProductControllerInterface):\n    def __init__(self, model) -> None:\n        self.db_repository = model\n    def search_product(self, name_product: str):\n        ValidationErrorController.validate_product_name(name_product)\n        return self.db_repository.search_product(name_product)",
+        "detail": "src.controllers.search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MockModel",
+        "kind": 6,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "class MockModel:\n    def __init__(self) -> None:\n        self.insert_product_attributes = []\n        self.insert_products = []\n    def insert_product(self, product):\n        self.insert_product_attributes.append(product)\n        self.insert_products.append(product)\n        return True\nclass InvalidModel:\n    pass",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidModel",
+        "kind": 6,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "class InvalidModel:\n    pass\ndef test_register_product_controller_varying_values():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    response = register_product_controller.register_product_controller(\"Produto1\", \"Tipo1\", 10)\n    assert model.insert_product_attributes[0] == {\"name_product\": \"Produto1\", \"type_product\": \"Tipo1\", \"quantity_product\": 10}\n    assert response == True\ndef test_register_product_controller_empty_inputs():\n    model = MockModel()",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_controller_varying_values",
+        "kind": 2,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "def test_register_product_controller_varying_values():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    response = register_product_controller.register_product_controller(\"Produto1\", \"Tipo1\", 10)\n    assert model.insert_product_attributes[0] == {\"name_product\": \"Produto1\", \"type_product\": \"Tipo1\", \"quantity_product\": 10}\n    assert response == True\ndef test_register_product_controller_empty_inputs():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    with pytest.raises(ControllerError) as exc_info:",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_controller_empty_inputs",
+        "kind": 2,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "def test_register_product_controller_empty_inputs():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    with pytest.raises(ControllerError) as exc_info:\n        register_product_controller.register_product_controller('', '', '')\n    assert str(exc_info.value) == \"Error: Invalid input. Name cannot be empty.\"\ndef test_register_product_controller_invalid_model():\n    model = InvalidModel()\n    register_product_controller = RegisterProductController(model)\n    with pytest.raises(AttributeError):",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_controller_invalid_model",
+        "kind": 2,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "def test_register_product_controller_invalid_model():\n    model = InvalidModel()\n    register_product_controller = RegisterProductController(model)\n    with pytest.raises(AttributeError):\n        response = register_product_controller.register_product_controller(\"Produto1\", \"Tipo1\", 10)\n        print()\n        print(response)\n        assert response == 'Error: Not found'\ndef test_register_product_controller_invalid_inputs():\n    model = MockModel()",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_controller_invalid_inputs",
+        "kind": 2,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "def test_register_product_controller_invalid_inputs():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    with pytest.raises(ControllerError) as exc_info:\n        register_product_controller.register_product_controller('!@#$', '!@#$', '!@#$')\n    assert str(exc_info.value) == 'Error: Invalid input(s). Quantity must be a valid integer.'\ndef test_register_product_controller_case_insensitive_inputs():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    try:",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_controller_case_insensitive_inputs",
+        "kind": 2,
+        "importPath": "src.controllers.test_register_product_controller",
+        "description": "src.controllers.test_register_product_controller",
+        "peekOfCode": "def test_register_product_controller_case_insensitive_inputs():\n    model = MockModel()\n    register_product_controller = RegisterProductController(model)\n    try:\n        response_upper = register_product_controller.register_product_controller(\"PRODUTO1\", \"TIPO1\", 10)\n        response_lower = register_product_controller.register_product_controller(\"produto1\", \"tipo1\", 10)\n        response_mixed = register_product_controller.register_product_controller(\"PrOdUtO1\", \"TiPo1\", 10)\n    except ControllerError:\n        pytest.fail(\"ControllerError raised unexpectedly\")\n    assert model.insert_product_attributes[0] == {\"name_product\": \"PRODUTO1\", \"type_product\": \"TIPO1\", \"quantity_product\": 10}",
+        "detail": "src.controllers.test_register_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "MockModel",
+        "kind": 6,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "class MockModel:\n    def __init__(self) -> None:\n        self.search_product_attributes = []\n    def search_product(self, name_product):\n        self.search_product_attributes.append(name_product)\n        if name_product == \"ProdutoExistente\":\n            return {\"name_product\": \"ProdutoExistente\", \"type_product\": \"Tipo1\", \"quantity_product\": 10}\n        return None\nclass InvalidModel:\n    pass",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidModel",
+        "kind": 6,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "class InvalidModel:\n    pass\ndef test_search_product_controller_existing_product():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    response = search_product_controller.search_product(\"ProdutoExistente\")\n    assert model.search_product_attributes[0] == \"ProdutoExistente\"\n    assert response == {\"name_product\": \"ProdutoExistente\", \"type_product\": \"Tipo1\", \"quantity_product\": 10}\ndef test_search_product_controller_non_existing_product():\n    model = MockModel()",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_controller_existing_product",
+        "kind": 2,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "def test_search_product_controller_existing_product():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    response = search_product_controller.search_product(\"ProdutoExistente\")\n    assert model.search_product_attributes[0] == \"ProdutoExistente\"\n    assert response == {\"name_product\": \"ProdutoExistente\", \"type_product\": \"Tipo1\", \"quantity_product\": 10}\ndef test_search_product_controller_non_existing_product():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    response = search_product_controller.search_product(\"ProdutoInexistente\")",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_controller_non_existing_product",
+        "kind": 2,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "def test_search_product_controller_non_existing_product():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    response = search_product_controller.search_product(\"ProdutoInexistente\")\n    assert model.search_product_attributes[0] == \"ProdutoInexistente\"\n    assert response == None\ndef test_search_product_controller_empty_input():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    with pytest.raises(ControllerError) as exc_info:",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_controller_empty_input",
+        "kind": 2,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "def test_search_product_controller_empty_input():\n    model = MockModel()\n    search_product_controller = SearchProductController(model)\n    with pytest.raises(ControllerError) as exc_info:\n        search_product_controller.search_product('')\n    assert str(exc_info.value) == \"Error: Invalid input. Name cannot be empty.\"\ndef test_search_product_controller_invalid_model():\n    model = InvalidModel()\n    search_product_controller = SearchProductController(model)\n    with pytest.raises(AttributeError):",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_controller_invalid_model",
+        "kind": 2,
+        "importPath": "src.controllers.test_search_product_controller",
+        "description": "src.controllers.test_search_product_controller",
+        "peekOfCode": "def test_search_product_controller_invalid_model():\n    model = InvalidModel()\n    search_product_controller = SearchProductController(model)\n    with pytest.raises(AttributeError):\n        response = search_product_controller.search_product(\"Produto1\")\n        print()\n        print(response)\n        assert response == 'Error: Not found'",
+        "detail": "src.controllers.test_search_product_controller",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "kind": 6,
+        "importPath": "src.error_handling.validation_error",
+        "description": "src.error_handling.validation_error",
+        "peekOfCode": "class ValidationError(Exception):\n    def __init__(self, message, errors=None) -> None:\n        super().__init__(message)\n        self.message = message\n        self.errors = errors\n        self.error_type = 'This is my mistake'\nclass ControllerError(Exception):\n    def __init__(self, message, errors=None) -> None:\n        super().__init__(message)\n        self.message = message",
+        "detail": "src.error_handling.validation_error",
+        "documentation": {}
+    },
+    {
+        "label": "ControllerError",
+        "kind": 6,
+        "importPath": "src.error_handling.validation_error",
+        "description": "src.error_handling.validation_error",
+        "peekOfCode": "class ControllerError(Exception):\n    def __init__(self, message, errors=None) -> None:\n        super().__init__(message)\n        self.message = message\n        self.errors = errors\n        self.error_tpye = 'Controller Error'",
+        "detail": "src.error_handling.validation_error",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationErrorController",
+        "kind": 6,
+        "importPath": "src.error_handling.validation_error_controller",
+        "description": "src.error_handling.validation_error_controller",
+        "peekOfCode": "class ValidationErrorController(Exception):\n    def __init__(self, message, errors=None) -> None:\n        super().__init__(message)\n        self.message = message\n        self.errors = errors\n        self.error_type = 'Controller Error'\n    @staticmethod\n    def validate_input_is_not_empty(*inputs):\n        return all(len(input) > 0 for input in inputs)\n    @staticmethod",
+        "detail": "src.error_handling.validation_error_controller",
+        "documentation": {}
+    },
+    {
+        "label": "ViewError",
+        "kind": 6,
+        "importPath": "src.error_handling.validation_error_view",
+        "description": "src.error_handling.validation_error_view",
+        "peekOfCode": "class ViewError(Exception):\n    # Construtor da classe ViewError\n    def __init__(self, message, errors=None) -> None:\n        # Chamando o construtor da classe pai Exception com a mensagem\n        super().__init__(message)\n        self.message = message\n        self.errors = errors\n        self.error_type = 'View Error'\n    # Método estático para lidar com diferentes tipos de erros\n    @staticmethod",
+        "detail": "src.error_handling.validation_error_view",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionHandler",
+        "kind": 6,
+        "importPath": "src.infra.configs.connection",
+        "description": "src.infra.configs.connection",
+        "peekOfCode": "class DBConnectionHandler(DBConnectionInterface):\n    def __init__(self) -> None:\n        self.__connection_string = 'mongodb://{}:{}@{}:{}/?authSource=admin'.format(\n            mongo_db_infos[\"USERNAME\"],\n            mongo_db_infos[\"PASSWORD\"],\n            mongo_db_infos[\"HOST\"],\n            mongo_db_infos[\"PORT\"],\n        )\n        # vou indicar que o nome do meu banco de dados vai estar\n        # como um atributo na minha classe",
+        "detail": "src.infra.configs.connection",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db_infos",
+        "kind": 5,
+        "importPath": "src.infra.configs.mongo_db_configs",
+        "description": "src.infra.configs.mongo_db_configs",
+        "peekOfCode": "mongo_db_infos = {\n    \"HOST\": \"localhost\",\n    \"PORT\": \"27017\",\n    \"USERNAME\": \"admin\",\n    \"PASSWORD\": \"password\",\n    \"DB_NAME\": \"mydatabase\",\n    \"COLLECTION_NAME\": \"productsRepository\"\n}",
+        "detail": "src.infra.configs.mongo_db_configs",
+        "documentation": {}
+    },
+    {
+        "label": "test_db_connection",
+        "kind": 2,
+        "importPath": "src.infra.configs.test_connection",
+        "description": "src.infra.configs.test_connection",
+        "peekOfCode": "def test_db_connection():\n    # Cria uma instância do DBConnectionHandler\n    db_handler = DBConnectionHandler()\n    # Conecta ao banco de dados\n    db_handler.connect_to_db()\n    # Obtém a conexão com o banco de dados\n    db_connection = db_handler.get_db_connection()\n    # Obtém o cliente do banco de dados\n    db_client = db_handler.get_db_client()\n    # Verifica se a conexão e o cliente são instancias válidas",
+        "detail": "src.infra.configs.test_connection",
+        "documentation": {}
+    },
+    {
+        "label": "DBConnectionInterface",
+        "kind": 6,
+        "importPath": "src.infra.interface.dbconnectioninterface",
+        "description": "src.infra.interface.dbconnectioninterface",
+        "peekOfCode": "class DBConnectionInterface(ABC):\n    @abstractmethod\n    def connect_to_db(self):\n        pass\n    @abstractmethod\n    def get_db_connection(self):\n        pass\n    @abstractmethod\n    def get_db_client(self):\n        pass",
+        "detail": "src.infra.interface.dbconnectioninterface",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsRepository",
+        "kind": 6,
+        "importPath": "src.infra.interface.product_repostory_interface",
+        "description": "src.infra.interface.product_repostory_interface",
+        "peekOfCode": "class ProductsRepository():\n    @abstractmethod\n    # funcionalidade de inserção \n    def insert_product(self, name_product: str, type_product: str, quantity_product: int) -> Dict:\n        pass\n    @abstractmethod\n    def insert_list_of_product(self, list_of_product: List[Dict]) -> List[Dict]: pass\n    @abstractmethod\n    def select_many(self, filter) -> List[Dict]: pass\n    @abstractmethod",
+        "detail": "src.infra.interface.product_repostory_interface",
+        "documentation": {}
+    },
+    {
+        "label": "ProductsRepository",
+        "kind": 6,
+        "importPath": "src.infra.repository.products_repository",
+        "description": "src.infra.repository.products_repository",
+        "peekOfCode": "class ProductsRepository(ProductsRepository):\n    def __init__(self, db_connection: DBConnectionInterface) -> None:\n        self.__collection_name = 'productsRepository'\n        self.__db_connection = db_connection\n    # funcionalidade de inserção \n    def insert_product(self, name_product: str, type_product: str, quantity_product: int) -> Dict:\n        collection = self.__db_connection.get_collection(self.__collection_name)\n        product = {\n            'name_product': name_product,\n            'type_product': type_product,",
+        "detail": "src.infra.repository.products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "product_repository",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def product_repository():\n    # Configura a conexão com o banco de dados de teste\n    db_connection = DBConnectionHandler()\n    db_connection.connect_to_db()\n    connection = db_connection.get_db_connection()\n    # Retorna um ProductsRepository com a conexão do banco de dados de teste\n    return ProductsRepository(connection)\ndef test_insert_product(product_repository):\n    name_product = \"Torta de Maçã\"\n    type_product = \"Doce\"",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_insert_product",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_insert_product(product_repository):\n    name_product = \"Torta de Maçã\"\n    type_product = \"Doce\"\n    quantity_product = 5\n    # Insere um produto\n    result = product_repository.insert_product(name_product, type_product, quantity_product)\n    # Verifica se o produto foi inserido corretamente\n    assert result[\"name_product\"] == name_product\n    assert result[\"type_product\"] == type_product\n    assert result[\"quantity_product\"] == quantity_product",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_insert_list_of_product",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_insert_list_of_product(product_repository):\n    products = [\n        {\"name_product\": \"Torta de Maçã\", \"type_product\": \"Doce\", \"quantify_product\": 5},\n        {\"name_product\": \"Torta de Morango\", \"type_product\": \"Doce\", \"quantify_product\": 10},\n        {\"name_product\": \"Torta Salgada\", \"type_product\": \"Salgado\", \"quantify_product\": 8},\n    ]\n    # Insere uma lista de produtos\n    result = product_repository.insert_list_of_product(products)\n    # Verifica se a lista de produtos foi inserida corretamente\n    assert len(result) == len(products)",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_many",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_many(product_repository):\n    filter = {\"type_product\": \"Doce\"}\n    # Realiza a consulta na coleção de produtos\n    result = product_repository.select_many(filter)\n    # Verifica se a consulta retornou os produtos corretos\n    assert len(result) > 0\ndef test_select_one(product_repository):\n    filter = {\"name_product\": \"Torta de Maçã\"}\n    # Realiza a consulta na coleção de produtos\n    result = product_repository.select_one(filter)",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_one",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_one(product_repository):\n    filter = {\"name_product\": \"Torta de Maçã\"}\n    # Realiza a consulta na coleção de produtos\n    result = product_repository.select_one(filter)\n    # Verifica se a consulta retornou um produto válido\n    assert result is not None\ndef test_select_if_property_exists(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_if_property_exists()\ndef test_select_many_order(product_repository):",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_if_property_exists",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_if_property_exists(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_if_property_exists()\ndef test_select_many_order(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_many_order()\ndef test_select_or(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_or()\ndef test_select_by_object_id(product_repository):",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_many_order",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_many_order(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_many_order()\ndef test_select_or(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_or()\ndef test_select_by_object_id(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_by_object_id()\ndef test_search_product(product_repository):",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_or",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_or(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_or()\ndef test_select_by_object_id(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_by_object_id()\ndef test_search_product(product_repository):\n    name_product = \"Torta de Maçã\"\n    # Realiza a busca do produto pelo nome\n    result = product_repository.search_product(name_product)",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_select_by_object_id",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_select_by_object_id(product_repository):\n    # Realiza a consulta na coleção de produtos\n    product_repository.select_by_object_id()\ndef test_search_product(product_repository):\n    name_product = \"Torta de Maçã\"\n    # Realiza a busca do produto pelo nome\n    result = product_repository.search_product(name_product)\n    # Verifica se o produto foi encontrado corretamente\n    assert result is not None\n# @pytest.mark.usefixtures(\"product_repository\")",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product",
+        "kind": 2,
+        "importPath": "src.infra.repository.test_products_repository",
+        "description": "src.infra.repository.test_products_repository",
+        "peekOfCode": "def test_search_product(product_repository):\n    name_product = \"Torta de Maçã\"\n    # Realiza a busca do produto pelo nome\n    result = product_repository.search_product(name_product)\n    # Verifica se o produto foi encontrado corretamente\n    assert result is not None\n# @pytest.mark.usefixtures(\"product_repository\")\n# def test_delete_product(product_repository):\n#     name_product = \"Torta de Frango\"\n#     # Deleta o produto pelo nome",
+        "detail": "src.infra.repository.test_products_repository",
+        "documentation": {}
+    },
+    {
+        "label": "request_adapter",
+        "kind": 2,
+        "importPath": "src.main.adapter.request_adapter",
+        "description": "src.main.adapter.request_adapter",
+        "peekOfCode": "def request_adapter(request: FlaskRequest, view: ViewInterface) -> HttpResponse:\n    http_request = HttpRequest(\n        header=request.headers,\n        body=request.json,\n        query_params=dict(request.args),\n        path_params=request.view_args,\n        url=request.full_path,\n        ipv4=request.remote_addr,\n    )\n    http_response = view.execute(http_request)",
+        "detail": "src.main.adapter.request_adapter",
+        "documentation": {}
+    },
+    {
+        "label": "register_product_composer",
+        "kind": 2,
+        "importPath": "src.main.composer.register_product_composer",
+        "description": "src.main.composer.register_product_composer",
+        "peekOfCode": "def register_product_composer():\n    db_connection = DBConnectionHandler()\n    db_connection.connect_to_db()       \n    model = ProductsRepository(db_connection.get_db_connection())\n    controller = RegisterProductController(model)\n    view = RegisterProductsViews(controller)\n    return view\n# O problema:\n#    na linha onde estava criando a instância da classe ProductsRepository \n# no arquivo register_product_composer.py. ",
+        "detail": "src.main.composer.register_product_composer",
+        "documentation": {}
+    },
+    {
+        "label": "search_composer",
+        "kind": 2,
+        "importPath": "src.main.composer.search_composer",
+        "description": "src.main.composer.search_composer",
+        "peekOfCode": "def search_composer():\n    model = ProductsRepository(DBConnectionHandler)\n    controller = SearchProductController(model)\n    view = SearchProductViews(controller)\n    return view",
+        "detail": "src.main.composer.search_composer",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "kind": 6,
+        "importPath": "src.main.http_types.http_request",
+        "description": "src.main.http_types.http_request",
+        "peekOfCode": "class HttpRequest:\n    def __init__(\n        self,\n        header: Dict = None, #  contém as informações de cabeçalho da solicitação HTTP.\n        body: Dict = None, # contém o corpo da solicitação HTTP. \n        query_params: Dict = None, # contém os parâmetros de consulta da solicitação HTTP. \n        path_params: Dict = None, # contém os parâmetros de caminho da solicitação HTTP. \n        url: str = None, # contém a URL para a qual a solicitação HTTP está sendo enviada.\n        ipv4: str = None, #  contém o endereço IP do cliente que está fazendo a solicitação.\n        token_information: Dict = None #  contém informações sobre um token de autenticação usado na solicitação.",
+        "detail": "src.main.http_types.http_request",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "kind": 6,
+        "importPath": "src.main.http_types.http_response",
+        "description": "src.main.http_types.http_response",
+        "peekOfCode": "class HttpResponse:\n    def __init__(self, status_code: int, body: any):\n        self.status_code = status_code\n        self.body = body\n    def __repr__(self) -> str:\n        return f\"HttpResponse (status_code={self.status_code}, body={self.body})\"",
+        "detail": "src.main.http_types.http_response",
+        "documentation": {}
+    },
+    {
+        "label": "register_product_route",
+        "kind": 2,
+        "importPath": "src.main.server.routes",
+        "description": "src.main.server.routes",
+        "peekOfCode": "def register_product_route():\n    request_adapter = register_product_composer()\n    http_response = request_adapter.register_products_view(request)\n    response = make_response(jsonify(http_response[\"data\"]), http_response[\"status_code\"])\n    return response\n@app.route(\"/register_product/search_product\", methods=[\"GET\"])\ndef search_product_route():\n    search_route = search_composer()\n    http_response = search_route.search_product_view(request.args)\n    print(f\"http_response: {http_response}\")",
+        "detail": "src.main.server.routes",
+        "documentation": {}
+    },
+    {
+        "label": "search_product_route",
+        "kind": 2,
+        "importPath": "src.main.server.routes",
+        "description": "src.main.server.routes",
+        "peekOfCode": "def search_product_route():\n    search_route = search_composer()\n    http_response = search_route.search_product_view(request.args)\n    print(f\"http_response: {http_response}\")\n    return jsonify(http_response[\"data\"]), http_response[\"status_code\"]",
+        "detail": "src.main.server.routes",
+        "documentation": {}
+    },
+    {
+        "label": "db_handler",
+        "kind": 5,
+        "importPath": "src.main.server.server",
+        "description": "src.main.server.server",
+        "peekOfCode": "db_handler = DBConnectionHandler()\napp = Flask(__name__)\nfrom .routes import *",
+        "detail": "src.main.server.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.main.server.server",
+        "description": "src.main.server.server",
+        "peekOfCode": "app = Flask(__name__)\nfrom .routes import *",
+        "detail": "src.main.server.server",
+        "documentation": {}
+    },
+    {
+        "label": "validate_register_products_request_body",
+        "kind": 2,
+        "importPath": "src.validators.validate_register_products",
+        "description": "src.validators.validate_register_products",
+        "peekOfCode": "def validate_register_products_request_body(request_body):\n    schema = {\n        \"name_product\": {\"type\": \"string\", \"required\": True},\n        \"type_product\": {\"type\": \"string\", \"required\": True},\n        \"quantity_product\": {\"type\": \"integer\", \"required\": True},\n    }\n    validator = Validator(schema)\n    is_valid = validator.validate(request_body)\n    if not is_valid:\n        raise ValidationError({'message': \"Invalid request body\", \"errors\":validator.errors})",
+        "detail": "src.validators.validate_register_products",
+        "documentation": {}
+    },
+    {
+        "label": "validate_search_query_params",
+        "kind": 2,
+        "importPath": "src.validators.validate_search_products",
+        "description": "src.validators.validate_search_products",
+        "peekOfCode": "def validate_search_query_params(query_params):\n    schema = {\n        \"name_product\": {\"type\": \"string\", \"required\": True, \"empty\": False}\n    }\n    validator = Validator(schema)\n    is_valid = validator.validate(query_params)\n    if not is_valid:\n        raise ValidationError({\"message\": \"Invalid request body\", \"errors\": validator.errors})\n    return is_valid, validator.errors",
+        "detail": "src.validators.validate_search_products",
+        "documentation": {}
+    },
+    {
+        "label": "ViewInterface",
+        "kind": 6,
+        "importPath": "src.views.interface.view",
+        "description": "src.views.interface.view",
+        "peekOfCode": "class ViewInterface(ABC):\n    @abstractmethod\n    def execute(self, input: HttpRequest) -> HttpResponse: pass",
+        "detail": "src.views.interface.view",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterProductsViews",
+        "kind": 6,
+        "importPath": "src.views.register_product_view",
+        "description": "src.views.register_product_view",
+        "peekOfCode": "class RegisterProductsViews(ViewInterface):\n    def __init__(self, controller: RegisterProductControllerInterface):\n        self.__controller = controller\n    def execute(self, request: HttpRequest) -> HttpResponse:\n        return self.register_products_view(request)\n    def register_products_view(self, input: HttpRequest) -> HttpResponse:\n        try:\n            validate_register_products_request_body(input.json)\n            body = input.json\n            name_product = body[\"name_product\"]",
+        "detail": "src.views.register_product_view",
+        "documentation": {}
+    },
+    {
+        "label": "SearchProductViews",
+        "kind": 6,
+        "importPath": "src.views.search_products_view",
+        "description": "src.views.search_products_view",
+        "peekOfCode": "class SearchProductViews(ViewInterface):\n    def __init__(self, controller: SearchProductControllerInterface):\n        self.__controller = controller\n    def execute(self, request: HttpRequest) -> HttpResponse:\n        return self.search_product_view(request)\n# Metodo para tratar a aquisição da rota e retornar a resposta da pesquisa\n    def search_product_view(self, input: HttpRequest) -> HttpResponse:\n        try:\n            # Converte os argumentos da requisição em um dicionário\n            query_params = dict(input)",
+        "detail": "src.views.search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "MockController",
+        "kind": 6,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "class MockController:\n    def __init__(self, error=False) -> None:\n        self.register_product_controller_attributes = []\n        self.error = error\n    def register_product_controller(self, name_product, type_product, quantity_product):\n        if self.error:\n            raise Exception(\"Erro na camada do controlador\")\n        else:\n            print(\"register_product_controller foi chamado\")\n            self.register_product_controller_attributes.append((name_product, type_product, quantity_product))",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_view_valid",
+        "kind": 2,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "def test_register_product_view_valid():\n    controller = MockController()\n    test_register_product_view = RegisterProductsViews(controller)\n    request = MagicMock()\n    request.json = {\n        \"name_product\": \"Product 1\",\n        \"type_product\": \"Type 1\",\n        \"quantity_product\": 10\n    }\n    try:",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_view_missing_fields",
+        "kind": 2,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "def test_register_product_view_missing_fields():\n    controller = MockController()\n    register_product_view = RegisterProductsViews(controller)\n    request = MagicMock()\n    request.json = {\n        \"name_product\": \"Product 1\",\n        \"type_product\": \"Type 1\",\n        \"quantity_product\": \"\"\n    }\n    try:",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_view_invalid_type",
+        "kind": 2,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "def test_register_product_view_invalid_type():\n    controller = MockController()\n    register_product_view = RegisterProductsViews(controller)\n    request = MagicMock()\n    request.json = {\n        \"name_product\": 123,  # valor inválido para name_product\n        \"type_product\": \"Type 1\",\n        \"quantity_product\": 10\n    }\n    try:",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_view_invalid_value",
+        "kind": 2,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "def test_register_product_view_invalid_value():\n    controller = MockController()\n    register_product_view = RegisterProductsViews(controller)\n    request = MagicMock()\n    request.json = {\n        \"name_product\": \"Product 1\",\n        \"type_product\": \"Type 1\",\n        \"quantity_product\": -10  # valor inválido para quantity_product\n    }\n    try:",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_register_product_view_controller_error",
+        "kind": 2,
+        "importPath": "src.views.test_register_products_view",
+        "description": "src.views.test_register_products_view",
+        "peekOfCode": "def test_register_product_view_controller_error():\n    controller = MockController(error=True)\n    register_product_view = RegisterProductsViews(controller)\n    request = MagicMock()\n    request.json = {\n        \"name_product\": \"Product 1\",\n        \"type_product\": \"Type 1\",\n        \"quantity_product\": 10\n    }\n    response = register_product_view.register_products_view(request)",
+        "detail": "src.views.test_register_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "MockController",
+        "kind": 6,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "class MockController:\n    def __init__(self, error=False) -> None:\n        self.search_product_controller_attributes = []\n        self.error = error\n    def search_product_controller(self, name_product):\n        if self.error:\n            raise Exception(\"Erro na camada do controlador\")\n        else:\n            print(\"search_product_controller foi chamado\")\n            self.search_product_controller_attributes.append(name_product)",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_valid",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_valid():\n    controller = MockController()\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": \"Product 1\"}\n    response = search_product_view.search_product_view(request.args)\n    print(\"Controller attributes:\", controller.search_product_controller_attributes)\n    assert controller.search_product_controller_attributes[0] == 'Product 1'\n    assert response[\"status_code\"] == 200\n    assert response[\"data\"] == [{\"id\": 1, \"name_product\": \"Product 1\"}]",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_validation_error",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_validation_error():\n    controller = MockController()\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": \"\"}  # valor inválido para name_product\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 400\n    assert \"Invalid request body\" in response[\"error_message\"]\n# Testar quando o produto não é encontrado\ndef test_search_product_view_product_not_found():",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_product_not_found",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_product_not_found():\n    controller = MockController()\n    controller.search_product_controller = MagicMock(return_value=[])  # Retornar uma lista vazia\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": \"Product 1\"}\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 404\n    assert response[\"error_message\"] == \"Product not found\"\n# Testar quando o parâmetro de consulta name_product está ausente",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_missing_name_product",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_missing_name_product():\n    controller = MockController()\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {}\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 400\n    assert \"name_product\" in response[\"error_message\"]\n# Testar quando o parâmetro de consulta name_product é nulo\ndef test_search_product_view_null_name_product():",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_null_name_product",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_null_name_product():\n    controller = MockController()\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": None} # name_product é nulo\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 400\n    assert \"name_product\" in response[\"error_message\"]\n# Testar quando a requisição inclui parâmetros de consulta adicionais: Você pode adicionar um teste onde a requisição inclui parâmetros de consulta além de name_product\ndef test_search_product_view_extra_query_params():",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_extra_query_params",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_extra_query_params():\n    controller = MockController()\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": \"Product 1\", \"extra_param\": \"extra\"}  # Parâmetro de consulta extra\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 400\n    assert \"extra_param\" in response[\"error_message\"]\n# Testar quando o controlador retorna uma resposta inesperada\ndef test_search_product_view_unexpected_controller_response():",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_product_view_unexpected_controller_response",
+        "kind": 2,
+        "importPath": "src.views.test_search_products_view",
+        "description": "src.views.test_search_products_view",
+        "peekOfCode": "def test_search_product_view_unexpected_controller_response():\n    controller = MockController()\n    controller.search_product_controller = MagicMock(return_value=\"unexpected\")  # Retornar uma resposta inesperada\n    search_product_view = SearchProductViews(controller)\n    request = MagicMock()\n    request.args = {\"name_product\": \"Product 1\"}\n    response = search_product_view.search_product_view(request.args)\n    assert response[\"status_code\"] == 500\n    assert \"Unexpected response from controller\" in response[\"error_message\"]",
+        "detail": "src.views.test_search_products_view",
+        "documentation": {}
+    },
+    {
+        "label": "db_hanlde",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "db_hanlde = DBConnectionHandler()\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=5000)\n# Conecta ao banco de dados\ndb_hanlde.connect_to_db()\n# Obtém a conexão com o banco de dados\ndb_connection = db_hanlde.get_db_connection()\n# Verificando se a conexão foi estabelecida\nif db_connection is not None:\n    print(\"Conexão com o banco de dados estabelecida com sucesso!\")",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "db_connection",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "db_connection = db_hanlde.get_db_connection()\n# Verificando se a conexão foi estabelecida\nif db_connection is not None:\n    print(\"Conexão com o banco de dados estabelecida com sucesso!\")\nelse:\n    print(\"Falha ao estabelecer conexão com o banco de dados.\")\n# Instancia a classe ProductsRepository com a conexão db_connection\nproducts_repository = ProductsRepository(db_connection)\n# Realiza a inserção de dados\nname_product = \"Torta de Limão\"",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "products_repository",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "products_repository = ProductsRepository(db_connection)\n# Realiza a inserção de dados\nname_product = \"Torta de Limão\"\ntype_product = \"Doce\"\nquantity_product = 2\nresponse = products_repository.insert_product(name_product, type_product, quantity_product)\nprint(response)\n# Realiza uma consulta com filtro\nfilter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "name_product",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "name_product = \"Torta de Limão\"\ntype_product = \"Doce\"\nquantity_product = 2\nresponse = products_repository.insert_product(name_product, type_product, quantity_product)\nprint(response)\n# Realiza uma consulta com filtro\nfilter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "type_product",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "type_product = \"Doce\"\nquantity_product = 2\nresponse = products_repository.insert_product(name_product, type_product, quantity_product)\nprint(response)\n# Realiza uma consulta com filtro\nfilter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento\nfilter = {\"name_product\": \"Torta de Morango\"}",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "quantity_product",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "quantity_product = 2\nresponse = products_repository.insert_product(name_product, type_product, quantity_product)\nprint(response)\n# Realiza uma consulta com filtro\nfilter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento\nfilter = {\"name_product\": \"Torta de Morango\"}\nresponse = products_repository.select_one(filter)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "response = products_repository.insert_product(name_product, type_product, quantity_product)\nprint(response)\n# Realiza uma consulta com filtro\nfilter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento\nfilter = {\"name_product\": \"Torta de Morango\"}\nresponse = products_repository.select_one(filter)\nprint(response)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "filter",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "filter = {\"type_product\": \"Doce\"}\nresponse = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento\nfilter = {\"name_product\": \"Torta de Morango\"}\nresponse = products_repository.select_one(filter)\nprint(response)\n# Realiza uma consulta com ordenação \nproducts_repository.select_many_order()\n# Realiza uma consulta buscando por um documento específico pelo ID",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "response = products_repository.select_many(filter)\nprint(response)\n# Realiza uma consulta retornando apenas um documento\nfilter = {\"name_product\": \"Torta de Morango\"}\nresponse = products_repository.select_one(filter)\nprint(response)\n# Realiza uma consulta com ordenação \nproducts_repository.select_many_order()\n# Realiza uma consulta buscando por um documento específico pelo ID\nproducts_repository.select_by_object_id()",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "filter",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "filter = {\"name_product\": \"Torta de Morango\"}\nresponse = products_repository.select_one(filter)\nprint(response)\n# Realiza uma consulta com ordenação \nproducts_repository.select_many_order()\n# Realiza uma consulta buscando por um documento específico pelo ID\nproducts_repository.select_by_object_id()\n# Realiza uma busca de produto por nome\nname_product = \"Torta de Frango\"\nresponse = products_repository.search_product(name_product)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "response = products_repository.select_one(filter)\nprint(response)\n# Realiza uma consulta com ordenação \nproducts_repository.select_many_order()\n# Realiza uma consulta buscando por um documento específico pelo ID\nproducts_repository.select_by_object_id()\n# Realiza uma busca de produto por nome\nname_product = \"Torta de Frango\"\nresponse = products_repository.search_product(name_product)\nprint(response)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "name_product",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "name_product = \"Torta de Frango\"\nresponse = products_repository.search_product(name_product)\nprint(response)\n# Deleta um produto por nome\nname_product = \"Torta de Limão\"\nresult = products_repository.delete_product(name_product)\nprint(result)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "response = products_repository.search_product(name_product)\nprint(response)\n# Deleta um produto por nome\nname_product = \"Torta de Limão\"\nresult = products_repository.delete_product(name_product)\nprint(result)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "name_product",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "name_product = \"Torta de Limão\"\nresult = products_repository.delete_product(name_product)\nprint(result)",
+        "detail": "run",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "result = products_repository.delete_product(name_product)\nprint(result)",
+        "detail": "run",
+        "documentation": {}
+    }
+]
