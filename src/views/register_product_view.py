@@ -1,11 +1,12 @@
 from ..validators.validate_register_products import validate_register_products_request_body
 from ..error_handling.validation_error_view import ViewError
 from .interface.view import ViewInterface
+from ..controllers.interface.register_product_interface import RegisterProductControllerInterface
 from ..main.http_types.http_request import HttpRequest
 from ..main.http_types.http_response import HttpResponse
 
 class RegisterProductsViews(ViewInterface):
-    def __init__(self, controller):
+    def __init__(self, controller: RegisterProductControllerInterface):
         self.__controller = controller
     
     def execute(self, request: HttpRequest) -> HttpResponse:

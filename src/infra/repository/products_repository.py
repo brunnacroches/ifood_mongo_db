@@ -1,20 +1,22 @@
 from bson.objectid import ObjectId
 from typing import Dict, List
+from ..interface.dbconnectioninterface import DBConnectionInterface
+from ..interface.product_repostory_interface import ProductsRepository
 
 # tratamento dos dados
-class ProductsRepository:
-    def __init__(self, db_connection) -> None:
+class ProductsRepository(ProductsRepository):
+    def __init__(self, db_connection: DBConnectionInterface) -> None:
         self.__collection_name = 'productsRepository'
         self.__db_connection = db_connection
 
     # funcionalidade de inserção 
     def insert_product(self, name_product: str, type_product: str, quantity_product: int) -> Dict:
+        collection = self.__db_connection.get_collection(self.__collection_name)
         product = {
             'name_product': name_product,
             'type_product': type_product,
             'quantity_product': quantity_product
         }
-        collection = self.__db_connection.get_collection(self.__collection_name)
         collection.insert_one(product)
         return product
 

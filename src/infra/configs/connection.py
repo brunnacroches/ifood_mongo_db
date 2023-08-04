@@ -1,9 +1,10 @@
 from pymongo import MongoClient
 from .mongo_db_configs import mongo_db_infos
+from ..interface.dbconnectioninterface import DBConnectionInterface
 
 # aqui vai ser o gerente de conexão ao nosso banco de dados
 # classe que gerencia todas as conexoes 
-class DBConnectionHandler:
+class DBConnectionHandler(DBConnectionInterface):
     def __init__(self) -> None:
         self.__connection_string = 'mongodb://{}:{}@{}:{}/?authSource=admin'.format(
             mongo_db_infos["USERNAME"],
@@ -27,3 +28,7 @@ class DBConnectionHandler:
     
     def get_db_client(self):
         return self.__client
+
+    def get_collection(self, collection_name: str):
+        # Aqui, self.__db_connection é uma conexão com o banco de dados
+        return self.__db_connection[collection_name]
